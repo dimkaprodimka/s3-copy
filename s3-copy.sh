@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-#set -e
-#set -o pipefail
+set -e
 if [ ! -d rclone-v1.65.0-linux-amd64 ]
 then
   curl -LO https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-amd64.zip
