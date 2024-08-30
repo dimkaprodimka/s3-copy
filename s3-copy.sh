@@ -58,7 +58,7 @@ then
  ./rclone-v1.65.0-linux-amd64/rclone copy s3:$s3_bucket vk:$vk_bucket -v --ignore-existing
  echo "-----------DONE------------"
 else
- echo "bad choys"
+ echo "bad choice"
 fi
 
 #Clean
